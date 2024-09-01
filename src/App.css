@@ -1,0 +1,94 @@
+.App {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+
+  @media (width < 768px) {
+    flex-direction: column-reverse;
+  }
+}
+
+.User {
+  max-width: 100%;
+  width: 400px;
+  padding: 30px;
+  background-color: black;
+  color: white;
+  min-height: 100vh;
+
+  @media (width < 768px) {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+.avatar {
+  max-width: 100%;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  margin-bottom: 30px;
+  object-fit: cover;
+}
+
+.description {
+  margin-top: 40px;
+}
+
+.description span {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+
+  @media (width < 768px) {
+    justify-content: center;
+  }
+}
+
+.input-user {
+  margin: 35px auto;
+  text-align: center;
+}
+
+.input-user .logo {
+  width: 200px;
+  height: 250px;
+  max-width: 100%;
+  border-radius: 25px;
+  object-fit: contain;
+}
+
+.input-user h1 {
+  font-size: 80px;
+  font-weight: bold;
+  margin-bottom: 40px;
+
+  @media (width < 768px) {
+    font-size: 45px;
+  }
+}
+
+.input-user input[type='text'] {
+  padding: 10px 20px;
+  background-color: black;
+  color: white;
+  outline: none;
+  border-radius: 5px;
+  margin-right: 20px;
+  border: none;
+  box-shadow: none;
+
+  @media (width < 375px) {
+    margin-bottom: 20px;
+  }
+}
+
+.input-user .btn-user {
+  background: none;
+  border: 2px solid black;
+  border-radius: 25px;
+  color: white;
+  width: 150px;
+  border-radius: 25px;
+}
