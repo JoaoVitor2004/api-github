@@ -19,7 +19,7 @@ Acessar apartir deste <a href='https://joaovitor2004-api-github.vercel.app'>ende
 
 ### 👨‍💻 Autores / Colaboradores
 
-**João Vitor** - frontend do projeto - [João Vitor](https://linkedin.com/in/joão-vitor-souza)
+**João Vitor** - frontend do projeto - [João Vitor](https://www.linkedin.com/in/jo%C3%A3o-vitor-souza-994bb4325)
 
 ### 📃 Licensa
 
